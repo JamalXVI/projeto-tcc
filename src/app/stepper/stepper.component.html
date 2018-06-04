@@ -1,0 +1,26 @@
+<mat-horizontal-stepper [linear]="true" #stepper="matHorizontalStepper">
+  <mat-step [stepControl]="true">
+      <ng-template matStepLabel>Primeira Parte</ng-template>
+    <p>Integer ac mi magna. Vestibulum non scelerisque orci, ut pretium lectus. In aliquet purus turpis, non vestibulum metus fermentum vel. Morbi tempus metus at vehicula sagittis. Sed venenatis tortor vitae elementum varius. Pellentesque eu metus sed purus vestibulum scelerisque. Sed blandit metus ipsum, eu porta erat volutpat ac. Suspendisse ultrices sapien ornare blandit scelerisque. Fusce ornare, tellus quis congue tristique, est est luctus metus, eu pellentesque eros elit et augue. </p>
+    <div>
+        <button mat-raised-button color="accent" matStepperPrevious>Anterior</button>
+        <button mat-raised-button color="accent" matStepperNext>Próxmo</button>
+    </div>
+  </mat-step>
+  <mat-step [stepControl]="true">
+      <ng-template matStepLabel>Segunda Parte</ng-template>
+    <p>Integer sollicitudin, tortor ac rutrum fermentum, est ipsum posuere nunc, eu aliquet felis enim at justo. Proin interdum faucibus mauris sit amet tristique. Maecenas ut quam hendrerit nibh hendrerit finibus vitae ac purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. In vehicula lobortis nulla pretium accumsan. Donec viverra a mi sit amet tempor. Ut a orci ac quam pretium dictum. Aenean vehicula elit non laoreet gravida. Nulla eu sagittis est. Praesent ut convallis mauris, ut euismod lorem. </p>
+    <div>
+        <button mat-raised-button color="accent" matStepperPrevious>Anterior</button>
+        <button mat-raised-button color="accent" matStepperNext>Próxmo</button>
+    </div>
+  </mat-step>
+  <mat-step>
+    <ng-template matStepLabel>Útima parte</ng-template>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet rhoncus risus, at ornare ligula facilisis vitae. Fusce tempus rhoncus dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam ultrices leo non lobortis mattis. Curabitur neque lectus, ultrices ut varius id, molestie ac ligula. Proin sed magna orci. Aliquam posuere sit amet turpis sit amet blandit. Aliquam porta nulla nec neque semper imperdiet. Nunc mattis euismod arcu, et consequat urna ornare in. Sed commodo, nibh sed ornare convallis, nunc arcu iaculis leo, quis sagittis eros tellus nec elit. Sed eget ullamcorper nulla, non commodo risus. </p>
+    <div>
+        <button mat-raised-button color="accent" matStepperPrevious>Anterior</button>
+        <button mat-raised-button color="accent" matStepperNext>Próxmo</button>
+    </div>
+  </mat-step>
+</mat-horizontal-stepper>

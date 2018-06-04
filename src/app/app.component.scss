@@ -1,0 +1,44 @@
+
+.mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+    transform: none !important;
+}
+.div-tile{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    height: -webkit-fill-available;
+    height: -moz-available;
+}
+.principal{
+    margin-top: 0px;
+    height: 100vh
+}
+.parallax{
+    height: inherit;
+    background-image: url(assets/image/fundo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.letra-a-letra{
+    overflow: hidden;
+    border-right:  .15em solid black;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: 
+        digitando 3.5s steps(100, end),
+        piscar-pipe 0.75s step-end infinite;
+}
+@keyframes digitando{
+    from{width: 0px }
+    to{width: 100%}
+}
+@keyframes piscar-pipe{
+    from, to {border-color: transparent}
+    50% {border-color: black;}
+}
+.inicio{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+    color: aliceblue;
+}

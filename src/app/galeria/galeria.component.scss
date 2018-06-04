@@ -1,0 +1,35 @@
+gallery {
+    display: block;
+    margin-top: 3em;
+    height: 42vh;
+  }
+  mat-card{
+      width: 100%;
+      height: 100%;
+  }
+  .garoto-foto {
+    background-image: url('./../../assets/image/garoto-foto.jpg');
+    background-size: cover;
+  }
+  code {
+    margin: 0;
+  }
+  
+  .mat-chip {
+    margin-right: 1em;
+  }
+  
+  ::ng-deep {
+    #ex1 {
+      .g-thumb {
+        padding: 5px 10px;
+      }
+    }
+    #ex2 {
+      .g-thumb {
+        padding: 0;
+        opacity: 0.3;
+      }
+    }
+  }
+  
